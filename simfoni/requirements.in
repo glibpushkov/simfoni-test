@@ -1,0 +1,23 @@
+django==1.10.4
+#-e git+git://github.com/django/django.git@stable/1.11.x#egg=django
+django-environ
+Pillow
+psycopg2
+pytz
+django-extensions
+Werkzeug
+django-debug-toolbar
+ipdb
+
+pylama
+
+invoke
+
+pip-tools
+
+pytest
+pytest-django
+pytest-cov
+pytest-mock
+# freezegun # Let your Python tests travel through time (https://github.com/spulec/freezegun)
+# pytest-allure-adaptor # (Not work with 3x version of pytest, sad)
