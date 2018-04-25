@@ -1,11 +1,13 @@
 """
 Django settings for simfoni project.
 """
-
+import sys
 import environ
 ROOT = environ.Path(__file__) - 3
 env = environ.Env(DEBUG=(bool, False),)
 environ.Env.read_env()
+
+sys.path.append(str(ROOT + 'apps'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 's0$ebu66nroo)y)0ejc^^@a^1y7y2fjrec(ak2mv))d%y0ngaa'
@@ -17,7 +19,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -25,6 +26,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+
+    'core',
+    'revenue',
+    'data_import',
 ]
 
 if DEBUG:
