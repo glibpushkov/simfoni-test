@@ -1,0 +1,3 @@
+rootProject.name = 'simfoni'
+
+include ':app'
