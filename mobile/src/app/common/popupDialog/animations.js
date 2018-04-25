@@ -1,0 +1,22 @@
+export default {
+  zoomIn:"zoomOut",
+  zoomInDown:"zoomInDown",
+  zoomInUp:"zoomInUp",
+  zoomInLeft:"zoomInLeft",
+  zoomInRight:"zoomInRight",
+  slideInDown:"slideInDown",
+  slideInUp:"slideInDown",
+  slideInLeft:"slideInLeft",
+  slideInRight:"slideInRight",
+  flipInX:"flipInX",
+  flipInY:"flipInY",
+  fadeIn:"fadeIn",
+  fadeInDown:"fadeInDown",
+  fadeInDownBig:"fadeOutDownBig",
+  fadeInUp:"fadeInUp",
+  fadeInUpBig:"fadeOutDownBig",
+  fadeInLeft:"fadeInLeft",
+  fadeInLeftBig:"fadeInLeftBig",
+  fadeInRight:"fadeInRight",
+  fadeInRightBig:"fadeInRightBig"
+}
